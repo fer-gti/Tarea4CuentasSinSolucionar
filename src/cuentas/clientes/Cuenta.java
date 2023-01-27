@@ -72,13 +72,11 @@ public class Cuenta {
         this.TipoInteres = tipoInteres;
     }
 
-
     private String Nombre;
     private String Cuenta;
     private double Saldo;
     private double TipoInteres;
     private int dni;
-
     public Cuenta()
     {
         Nombre ="";
@@ -86,7 +84,6 @@ public class Cuenta {
         Saldo=0;
         TipoInteres=0;
     }
-
     public Cuenta(String nom, String cue, double sal, double tipo)
     {
         Nombre =nom;
@@ -94,7 +91,6 @@ public class Cuenta {
         Saldo=sal;
         TipoInteres=tipo;
     }
-
     public double estado()
     {
         return getSaldo();

@@ -3,6 +3,20 @@ package cuentas.clientes;
 public class Cuenta {
 
     /**
+     * @return the dni
+     */
+    public int getDni() {
+        return dni;
+    }
+
+    /**
+     * @param dni the dni to set
+     */
+    public void setDni(int dni) {
+        this.dni = dni;
+    }
+
+    /**
      * @return the nombre
      */
     public String getNombre() {
@@ -63,6 +77,7 @@ public class Cuenta {
     private String cuenta;
     private double saldo;
     private double tipoInteres;
+    private int dni;
 
     public Cuenta()
     {

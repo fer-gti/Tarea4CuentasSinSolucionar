@@ -20,79 +20,79 @@ public class Cuenta {
      * @return the nombre
      */
     public String getNombre() {
-        return nombre;
+        return Nombre;
     }
 
     /**
      * @param nombre the nombre to set
      */
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.Nombre = nombre;
     }
 
     /**
      * @return the cuenta
      */
     public String getCuenta() {
-        return cuenta;
+        return Cuenta;
     }
 
     /**
      * @param cuenta the cuenta to set
      */
     public void setCuenta(String cuenta) {
-        this.cuenta = cuenta;
+        this.Cuenta = cuenta;
     }
 
     /**
      * @return the saldo
      */
     public double getSaldo() {
-        return saldo;
+        return Saldo;
     }
 
     /**
      * @param saldo the saldo to set
      */
     public void setSaldo(double saldo) {
-        this.saldo = saldo;
+        this.Saldo = saldo;
     }
 
     /**
      * @return the tipoInteres
      */
     public double getTipoInteres() {
-        return tipoInteres;
+        return TipoInteres;
     }
 
     /**
      * @param tipoInteres the tipoInteres to set
      */
     public void setTipoInteres(double tipoInteres) {
-        this.tipoInteres = tipoInteres;
+        this.TipoInteres = tipoInteres;
     }
 
 
-    private String nombre;
-    private String cuenta;
-    private double saldo;
-    private double tipoInteres;
+    private String Nombre;
+    private String Cuenta;
+    private double Saldo;
+    private double TipoInteres;
     private int dni;
 
     public Cuenta()
     {
-        nombre ="";
-        cuenta="";
-        saldo=0;
-        tipoInteres=0;
+        Nombre ="";
+        Cuenta="";
+        Saldo=0;
+        TipoInteres=0;
     }
 
     public Cuenta(String nom, String cue, double sal, double tipo)
     {
-        nombre =nom;
-        cuenta=cue;
-        saldo=sal;
-        tipoInteres=tipo;
+        Nombre =nom;
+        Cuenta=cue;
+        Saldo=sal;
+        TipoInteres=tipo;
     }
 
     public double estado()
